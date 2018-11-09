@@ -39,7 +39,7 @@ class VisionController {
                 }
 
                 arr_mataKuliah.pop();
-                console.log('List Mata Kuliah', arr_mataKuliah);
+                // console.log('List Mata Kuliah', arr_mataKuliah);
                 res.status(200).json({
                     mata_kuliah: arr_mataKuliah
                 });
