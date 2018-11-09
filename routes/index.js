@@ -24,5 +24,16 @@ Router.post('/upload',
                 res.status(500).json(err)
             })
     });
+    
 Router.post('/convert', VisionController.convert)
+
+Router.get('/image', (req, res) => {    
+    Image.find()
+    .then((result) => {
+        res.status(200).json(result)
+    }).catch((err) => {
+        res.status(500).json(err)
+    });
+})
+
 module.exports = Router
