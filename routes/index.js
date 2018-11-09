@@ -2,6 +2,7 @@ const express = require('express')
 const Router = express.Router()
 const file = require('../helpers/helper')
 const Image = require('../models/image.js')
+const VisionController = require('../controllers/visionController.js')
 Router.get('/', (req, res) => {
     res.send('hi guys')
 })
@@ -23,4 +24,5 @@ Router.post('/upload',
                 res.status(500).json(err)
             })
     });
+Router.post('/convert', VisionController.convert)
 module.exports = Router
