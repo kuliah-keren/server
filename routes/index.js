@@ -14,14 +14,13 @@ Router.post('/upload',
                 link: req.file.cloudStoragePublicUrl
             })
             .then(() => {
-                res.send({
-                    status: 200,
+                res.status(200).json({
                     message: 'Your file is successfully uploaded',
                     link: req.file.cloudStoragePublicUrl
                 })
             })
             .catch(err => {
-                res.send(err)
+                res.status(500).json(err)
             })
     });
 module.exports = Router
