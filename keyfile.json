@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "hot-deal-221803",
+    "private_key_id": "8bb5f65a2f764b53b12a285e4bbcb3a1c0f5b7f3",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDO63oRks3bCZJK\nCmwVmB9nFJ/+TmwIPoQhNQQHRObUoadm+xZ6lgGI2+q3IvwDEBbBea01L+a0JZRi\nEUJn6fpyTMHd5vcH1i23J83EKNWZlRUK4OIyaaidlR44gHmLfNNR1dA61Ek5cgrE\nM7Z69XS2js5q5JKysk1x4nOlQWwMAl9U0eCa+YnYXIW1lHjji64HjATj2qrXuyu/\n16lMaS4Nm2MCGNvFd1EzB+i+ihCTVEDtRztq3a54z7EYwF4qwze5g5VYVbb3H8o/\nSzL5b2yiVnN4YSGNIO2X67FSFMSbbaF3pW8pTVtKBn+WlcEfC79dgOBkpXcnLg7E\nvaZzm3xbAgMBAAECggEAXq5ZONlX4LZMfhyuwGLPW7eQTilMPal9hERiB4F7riga\nFYEnFAi3wwv+JraXYj9majlnDENS6XOYphcHr8zckJiWzRb2Sluyp3BLM0sMEi6p\nZkTou/Ck+xZUsb3339/KQlP36DNjHioUyxpukWznbvGBemAE0EfOMCJSkHeTHRrW\nJS3+oq5Snvvi2nDECPDWNVlhsTbRHOeHVwV7tWl7thuwm9Jwc74sTposwlJTXg64\nMHRybwTxHrUd7WCgf7arEbxp2KY3XMT/6P5QtAEA/YEpvxdWhsmXWF9Zs92LfKH7\n/OgqvXPsLRRfr4vW5sMQI5DlBSAyc/PiBiZ74U8E4QKBgQDpovaKtKDva8LoON3u\n6OPR5W6td3ehanMATAZqYvWeEAzB22s6oKSK84nb6Ui5l5+89/9iMSXgPXhK3pGB\nqNwnNdvJpx1HrbneUboOCnnLmQzXJhj4w9Ni0zIfLSDOGn8DWtH1xaAp3/DEBifj\nrKdUMMcnBeMARiCNv6yPcz3G3wKBgQDiudiSO1RtGZn5oUmoQMCFcxSkZxb4uzvo\nrFuWB8OGbssu3YJlpCKTVAcWY9OlLTNRdjbaUp3RjAu5Y1evZXcbXpxB7ymdZNCo\nxyqwVfdlbalMAWmcDGaWdtAFmh4j1Q7HXyNhkzh29phWoFiAlDcUsSw/hDVfYnvr\nIZv7g86mBQKBgQCnl5loiAeFlvRaJii07uQ1NXH+BtuOs1BJHz/e4puzxWmRSbcS\neBdwASCb2iyrzOLt56uPIRg9UXrPofYYXyuFCPJfJXwwZaMVoeRnnAYgEOqQDqkN\nEVO56StkB7gngAQqQOSpexjX0ObhhlTo0Xm6P78r8+IQ2T0S0TKUOCNRWwKBgQCl\nnRuVtcD18L2Im0gynxoCYQ2zCZq+Fgas7zn3XbR1fnjswuF9XWfkNnz23fS7s0jJ\nOJDY6YBekO3/fZGPjY5zb6i0gP7k+b9xigqkxCby8Ce6XU3Hr0dAoYlSjkF16yvg\ndp5hqCiWvYqJvJbpVVrmwoSP4QMbqdTa7LIEB0PsAQKBgQCjGd9pHeY98UoIlFxy\nVxtLly8RDNqr40XtUXsy/iG6OLfRX+OsWUXXhqZXZ+RQRj9yscCvhhIozzfkd7fz\nF4HNsrqF98LvXpgi6acLRPzZAlSVVU2rR2FMO63okuY2v0Dzq3PRJ2FUsYPLFJc+\nfDzukPu4CawSSiamN7ZbLrjSQQ==\n-----END PRIVATE KEY-----\n",
+    "client_email": "admin-sound-api@hot-deal-221803.iam.gserviceaccount.com",
+    "client_id": "109959791342573127681",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/admin-sound-api%40hot-deal-221803.iam.gserviceaccount.com"
+}
