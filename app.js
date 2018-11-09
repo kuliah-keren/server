@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 const router = require('./routes/index')
 
 app.use(express.json())
-app.use(express.urlencoded({extended: true}))
+app.use(express.urlencoded({ extended: true }))
 
 
 app.use('/', router)
@@ -13,14 +13,14 @@ app.use('/', router)
 
 app.listen(process.env.PORT, () => {
     console.log('server started on port ', process.env.PORT)
-    mongoose.connect('mongodb://localhost/kuliah-keren', {
-    useNewUrlParser: true
-    })
-    .then(() => {
-        console.log('mongodb started')
-    })
-    .catch(err => {
-        console.log(err)
-    })
+    mongoose.connect('mongodb://127.0.0.1/kuliah-keren', {
+            useNewUrlParser: true
+        })
+        .then(() => {
+            console.log('mongodb started')
+        })
+        .catch(err => {
+            console.log(err)
+        })
 
 })
