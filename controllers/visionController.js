@@ -23,7 +23,7 @@ class VisionController {
                 let arr_mataKuliah = [];
 
                 for (let i = 0; i < kuliah.length; i++) {
-                    if (kuliah[i] === 'NAMA MATAKULIAH') {
+                    if (kuliah[i] === 'NAMA MATAKULIAH' || kuliah[i] === 'NAMA MATA KULIAH') {
                         for (let j = i+1; j < kuliah.length; j++) {
                             arr_mataKuliah.push(kuliah[j]);
                         }
@@ -31,17 +31,19 @@ class VisionController {
                 }
 
                 for (let i = 0; i < arr_mataKuliah.length; i++) {
-                    if (arr_mataKuliah[i] === "HONDOEN") {
-                        for (let j = i; j < arr_mataKuliah.length; j++) {
-                            arr_mataKuliah.splice(j, 1);
-                        }
+                    if (arr_mataKuliah[i].length < 12) {
+                        arr_mataKuliah.splice(i, 1);
                     }
                 }
+
+                const newMataKuliah = arr_mataKuliah.filter(mata_kuliah => {
+                    return mata_kuliah.length > 11
+                })
 
                 arr_mataKuliah.pop();
                 // console.log('List Mata Kuliah', arr_mataKuliah);
                 res.status(200).json({
-                    mata_kuliah: arr_mataKuliah
+                    mata_kuliah: newMataKuliah
                 });
                 // console.log(`Full text: ${fullTextAnnotation.text}`);
             })

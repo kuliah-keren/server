@@ -15,7 +15,7 @@ app.use('/', router)
 
 app.listen(process.env.PORT, () => {
     console.log('server started on port ', process.env.PORT)
-    mongoose.connect('mongodb://127.0.0.1/kuliah-keren', {
+    mongoose.connect(process.env.CONNECT_DB, {
             useNewUrlParser: true
         })
         .then(() => {

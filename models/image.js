@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1/kuliah-keren', {
+mongoose.connect(process.env.CONNECT_DB, {
     useNewUrlParser: true
 })
 const Schema = mongoose.Schema;
